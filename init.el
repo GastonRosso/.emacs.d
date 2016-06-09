@@ -5,3 +5,6 @@
 
 ;; Turn off startup message
 (setq inhibit-startup-message t)
+
+;; Load packages
+(load-file "./packages.el")
