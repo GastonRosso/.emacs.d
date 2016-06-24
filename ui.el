@@ -6,8 +6,7 @@
 ;; Turn off startup message
 (setq inhibit-startup-message t)
 
+(toggle-frame-fullscreen)
+
 ;; Font settings
 (set-default-font "Droid Sans Mono 12")
-
-;; Show line numbers
-(global-linum-mode 1)
